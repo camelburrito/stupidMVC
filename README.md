@@ -7,22 +7,29 @@ Usage
 ----------
 
 Once you download this mvc put it in your htdocs (or where ever you want ). You should see a folder structure like this 
+
 My-Folder/
 |-application/
-  |-helpers/
-    |-Mustache.php
-    |-Route.php
-    |-Router.php
-  |-model/
-    |-index.php
-  |-view/
-    |-templates/
-      |-index.mustache
+|  |-helpers/
+|  | |-Mustache.php
+|  | |-Route.php
+|  | |-Router.php
+|  |
+|  |-model/
+|  | |-index.php
+|  |
+|  |-view/
+|   |-templates/
+|     |-index.mustache
+|
 |-static/
-  |-css/
-    |-test.css
-  |-images
-  |-js
+|  |-css/
+|  | |-test.css
+|  |
+|  |-images/
+|  |
+|  |-js/
+|  
 |-.DS_Store
 |-.htaccess
 |-README
