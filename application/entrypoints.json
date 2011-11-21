@@ -1,0 +1,15 @@
+{
+  "/index": {
+      "model" : "index.php",
+      "view"  : "templates/index.mustache",
+      "widgets":  [],
+      "permissions": []
+  },
+
+  "/about": {
+      "model" : "index.php",
+      "view"  : "templates/index.mustache",
+      "widgets":  [],
+      "permissions": []
+  }
+}
