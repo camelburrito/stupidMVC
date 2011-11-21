@@ -8,6 +8,7 @@ Usage
 
 Once you download this mvc put it in your htdocs (or where ever you want ). You should see a folder structure like this 
 
+<pre>
 My-Folder/
 |-application/
 |  |-helpers/
@@ -33,7 +34,7 @@ My-Folder/
 |-.DS_Store
 |-.htaccess
 |-README
-
+</pre>
 
 
 Now you can put your Models inside the model folder , views in the view folder etc.
