@@ -1,11 +1,7 @@
 <?php
-class Page{
-  
-  function __construct(){
-    
-  }
-  function getData($request){
-    $data = array('name' => "Web User" );
+class Index extends Page{  
+  public function getData(){
+    $data = array('name' => "Web User");
     return $data;
   }
 }

@@ -12,5 +12,13 @@
 </head>
 <body>
   HELLO {{name}}!
+  {{#widgets}}
+    <div>
+    Address: {{address.street}},{{address.city}},{{address.state}}
+    </div>
+    <div>
+      Test Data: {{testwidget.data}}
+    </div>
+  {{/widgets}}
 </body>
 </html>

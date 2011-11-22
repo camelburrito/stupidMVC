@@ -1,15 +1,13 @@
 {
   "/index": {
-      "model" : "index.php",
+      "model" : "Index.php",
       "view"  : "templates/index.mustache",
-      "widgets":  [],
-      "permissions": []
+      "widgets":  ["Address.php","test/TestWidget.php"]
   },
 
   "/about": {
-      "model" : "index.php",
+      "model" : "Index.php",
       "view"  : "templates/index.mustache",
-      "widgets":  [],
-      "permissions": []
+      "widgets":  []
   }
 }
