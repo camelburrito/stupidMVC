@@ -15,6 +15,8 @@ My-Folder/
 |  | |-Mustache.php
 |  | |-Route.php
 |  | |-Router.php
+|  | |-Page.php
+|  | |-Widget.php
 |  |
 |  |-model/
 |  | |-Index.php
