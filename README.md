@@ -57,6 +57,15 @@ Requirements
 Turn Mod rewrite on - on your apache
 I am working with php v 5.3+ (not sure if this is backwards compatible please test it yourself and let me know)
 
+Add this to httpd.conf
+<pre>
+    <Directory "/path/to/StupidMVC">
+        AllowOverride all
+        Order Deny,Allow
+        Allow from all
+    </Directory>
+</pre>
+
 How Things Work
 ================
 
