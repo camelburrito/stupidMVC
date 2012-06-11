@@ -59,11 +59,11 @@ I am working with php v 5.3+ (not sure if this is backwards compatible please te
 
 Add this to httpd.conf
 <pre>
-    <Directory "/path/to/StupidMVC">
+    &lt;Directory "/path/to/StupidMVC"&gt;
         AllowOverride all
         Order Deny,Allow
         Allow from all
-    </Directory>
+    &lt;/Directory&gt;
 </pre>
 
 How Things Work
